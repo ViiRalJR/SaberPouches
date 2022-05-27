@@ -1,0 +1,13 @@
+name: Pouches
+version: '${project.version}'
+main: org.saberdev.Pouches
+api-version: 1.17
+authors: [ ViiRal ]
+description: Yuh
+depend:
+  - Vault
+  - NBTAPI
+commands:
+  pouch:
+    description: Main command for plugin
+    permission: saber.admin

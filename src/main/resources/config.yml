@@ -1,0 +1,75 @@
+language:
+  reward message money: "&a&l(!)&a You have opened a money pouch and received ${AMOUNT}."
+  reward message experience: "&a&l(!)&a You have opened a experience pouch and received {AMOUNT} exp."
+  no permission: "&c&l(!)&c No Permission!"
+  received pouch: "&a&l(!)&a You have received x{AMOUNT} {NAME} {TYPE} pouch('s)."
+  given pouch: "&a&l(!)&a You have given {PLAYER} x{AMOUNT} {NAME} {TYPE} pouch('s)."
+pouches:
+  money:
+    SIMPLE:
+      name: "&fSimple Money Pouch &7(Right Click)"
+      material: BOWL
+      lore:
+        - "&7Right-Click this pouch to receive"
+        - "&7a random amount of money."
+        - ""
+        - "&fMax: ${MAXIMUM}"
+        - "&fMin: ${MINIMUM}"
+      maximum: 1000
+      minimum: 1
+    RARE:
+      name: "&bRare Money Pouch &7(Right Click)"
+      material: BOWL
+      lore:
+        - "&7Right-Click this pouch to receive"
+        - "&7a random amount of money."
+        - ""
+        - "&fMax: ${MAXIMUM}"
+        - "&fMin: ${MINIMUM}"
+      maximum: 10000
+      minimum: 1000
+    LEGENDARY:
+      name: "&6Legendary Money Pouch &7(Right Click)"
+      material: BOWL
+      lore:
+        - "&7Right-Click this pouch to receive"
+        - "&7a random amount of money."
+        - ""
+        - "&fMax: ${MAXIMUM}"
+        - "&fMin: ${MINIMUM}"
+      maximum: 100000
+      minimum: 10000
+  experience:
+    SIMPLE:
+      name: "&fSimple Experience Pouch &7(Right Click)"
+      material: EXPERIENCE_BOTTLE
+      lore:
+        - "&7Right-Click this pouch to receive"
+        - "&7a random amount of experience."
+        - ""
+        - "&fMax: {MAXIMUM} exp"
+        - "&fMin: {MINIMUM} exp"
+      maximum: 1000
+      minimum: 1
+    RARE:
+      name: "&bRare Experience Pouch &7(Right Click)"
+      material: EXPERIENCE_BOTTLE
+      lore:
+        - "&7Right-Click this pouch to receive"
+        - "&7a random amount of experience."
+        - ""
+        - "&fMax: {MAXIMUM} exp"
+        - "&fMin: {MINIMUM} exp"
+      maximum: 10000
+      minimum: 1000
+    LEGENDARY:
+      name: "&6Legendary Experience Pouch &7(Right Click)"
+      material: EXPERIENCE_BOTTLE
+      lore:
+        - "&7Right-Click this pouch to receive"
+        - "&7a random amount of experience."
+        - ""
+        - "&fMax: {MAXIMUM} exp"
+        - "&fMin: {MINIMUM} exp"
+      maximum: 100000
+      minimum: 10000
